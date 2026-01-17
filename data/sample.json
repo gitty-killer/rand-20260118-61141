@@ -1,0 +1,115 @@
+{
+  "items": [
+    {
+      "id": "assignment-01",
+      "name": "assignment_01",
+      "category": "homework",
+      "amount": 13,
+      "score": 53,
+      "status": "ok"
+    },
+    {
+      "id": "assignment-02",
+      "name": "assignment_02",
+      "category": "quiz",
+      "amount": 16,
+      "score": 56,
+      "status": "ok"
+    },
+    {
+      "id": "assignment-03",
+      "name": "assignment_03",
+      "category": "project",
+      "amount": 19,
+      "score": 59,
+      "status": "ok"
+    },
+    {
+      "id": "assignment-04",
+      "name": "assignment_04",
+      "category": "exam",
+      "amount": 22,
+      "score": 62,
+      "status": "needs_review"
+    },
+    {
+      "id": "assignment-05",
+      "name": "assignment_05",
+      "category": "unknown",
+      "amount": 25,
+      "score": 65,
+      "status": "ok"
+    },
+    {
+      "id": "assignment-06",
+      "name": "assignment_06",
+      "category": "quiz",
+      "amount": 28,
+      "score": 68,
+      "status": "ok"
+    },
+    {
+      "id": "assignment-07",
+      "name": "assignment_07",
+      "category": "project",
+      "amount": 31,
+      "score": 71,
+      "status": "ok"
+    },
+    {
+      "id": "assignment-08",
+      "name": "assignment_08",
+      "category": "exam",
+      "amount": 34,
+      "score": 74,
+      "status": "needs_review"
+    },
+    {
+      "id": "assignment-09",
+      "name": "assignment_09",
+      "category": "homework",
+      "amount": 37,
+      "score": 77,
+      "status": "ok"
+    },
+    {
+      "id": "assignment-10",
+      "name": "assignment_10",
+      "category": "quiz",
+      "amount": 40,
+      "score": 80,
+      "status": "ok"
+    },
+    {
+      "id": "assignment-11",
+      "name": "assignment_11",
+      "category": "project",
+      "amount": 43,
+      "score": 83,
+      "status": "ok"
+    },
+    {
+      "id": "assignment-12",
+      "name": "assignment_12",
+      "category": "exam",
+      "amount": 46,
+      "score": 86,
+      "status": "needs_review"
+    }
+  ],
+  "rules": {
+    "min_amount": 5,
+    "max_amount": 60,
+    "allowed_statuses": [
+      "ok",
+      "needs_review",
+      "blocked"
+    ]
+  },
+  "expected": {
+    "total_amount": 354,
+    "avg_score": 69.5,
+    "top_item": "assignment-12",
+    "issue_count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "project_title": "Classroom Grading Overview",
+  "goal": "Aggregate grading progress and identify lagging modules.",
+  "entity_name": "assignment",
+  "amount_label": "submissions",
+  "score_label": "quality_score",
+  "categories": [
+    "homework",
+    "quiz",
+    "project",
+    "exam"
+  ]
+}
